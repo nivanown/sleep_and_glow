@@ -55,12 +55,6 @@
   --secondary-text-color: #7389BE;
   --tertiary-text-color: #ADADAD;
 
-  --quaternary-text-color: #fff;
-  --fifth-text-color: #9CA3AF;
-  --six-text-color: #818793;
-  --seven-text-color: #351ee0;
-  --eight-text-color: #D1D5DB;
-
   /* font-family */
   --primary-font-family: 'Cera Pro', sans-serif;
 
@@ -75,22 +69,11 @@
   --secondary-border-color: #C6C6C6;
   --tertiary-border-color: #000;
 
-  --quaternary-border-color: #111827;
-  --fifth-border-color: #1F2937;
-  --six-border-color: #D1D5DB;
-  --seven-border-color: #fff;
-  --eight-border-color: #F6F8FA;
-
   /* background-color */
   --primary-background-color: #E8E8E8;
   --secondary-background-color: #fff;
   --tertiary-background-color: #C6C6C6;
   --quaternary-background-color: #000;
-
-  --fifth-background-color: linear-gradient(90deg, rgba(53,32,225,1) 0%, rgba(64,115,240,1) 100%);
-  --six-background-color: #f9f9f9;
-  --seven-background-color: #05092c;
-  --eight-background-color: #ebebfc;
   }
   
 /* body */
@@ -201,8 +184,12 @@ b, strong {
   width: 100%;
   }
 
-.advantages__content--with-top-padding {
+.with-top-padding {
   padding-top: 23px;
+  }
+
+.advantages__percent {
+  margin: 0 0 15px;
   }
 
 .advantages__text {
@@ -217,7 +204,6 @@ b, strong {
 
 .advantages__number {
   display: block;
-  margin: 0 0 15px;
   font-size: 72px;
   font-weight: var(--primary-font-weight);
   line-height: 60px;
