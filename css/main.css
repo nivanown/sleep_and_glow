@@ -228,11 +228,10 @@ b, strong {
   -webkit-text-fill-color: transparent;
   }
 
-.advantages__number sup {
-  position: relative;
-  margin: 0 0 0 5px;
+.advantages__number span {
+  display: inline-block;
+  margin: 6px 0 0 8px;
   vertical-align: top;
-  top: 5px;
   font-size: 20px;
   line-height: 20px;
   }
