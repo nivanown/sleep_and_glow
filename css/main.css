@@ -231,12 +231,21 @@ b, strong {
   line-height: 22px;
   } 
 
+/* small-text */
 .small-text {
   display: block;
-  padding: 0 calc(160 / 1920 * 100vw);
   color: var(--tertiary-text-color);
   font-size: 12px;
   line-height: 16px;
+  }
+
+.advantages .small-text {
+  display: none ;
+  }
+
+/* remark-panel */
+.remark-panel {
+  padding: 0 calc(160 / 1920 * 100vw);
   }
 
 /* wrinkles-col */
