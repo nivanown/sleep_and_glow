@@ -14,6 +14,17 @@ swiperConfigs.forEach(config => {
     slidesPerView: 2,
     slidesPerGroup: 2,
     spaceBetween: 30,
+    breakpoints: {
+      0: {
+        spaceBetween: 12,
+      },
+      390: {
+        spaceBetween: 17,
+      },
+      1081: {
+        spaceBetween: 30,
+      },
+    },
     navigation: {
       nextEl: config.nextButton,
       prevEl: config.prevButton,
@@ -56,8 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
   handleScroll();
   window.addEventListener('scroll', handleScroll);
 });
-
-
-
-
 
