@@ -167,12 +167,6 @@ b, strong {
   border-bottom: 1px solid var(--primary-border-color);
   }
 
-.advantages__item {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  }
-
 .advantages__border {
   width: 1px;
   height: 109px;
